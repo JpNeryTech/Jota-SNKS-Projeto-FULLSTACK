@@ -198,13 +198,166 @@ width: auto;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     width: 100%;
+    height: 700px;
+    overflow: hidden;
 }
 
-.banner-principal img,
 .banner-principal video{
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+.banner-principal img{
     display: block;
 }
 
+.banner-imagem-principal{
+height: 100%;
+overflow: hidden;
+}
+
+.banner-video-logoNike{
+height: 100%;
+overflow: hidden;
+}
+
+.banner-imagem-principal img{
+width: 100%;
+height: 100%;
+object-fit: cover;
+display: block;
+}
+
+.produtos{
+    width: 100%;
+    padding: 40px 80px;
+
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); 
+    gap: 20px;
+
+    background-color: #F5F5F5;
+}
+
+.produto-card{
+   background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden; 
+
+    display: flex;
+    flex-direction: column;
+
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    transition: 0.3s;
+}
+
+.produto-card:hover{
+    box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+}
+
+.produto-card img{
+   width: 100%;
+    height: 390px;
+    object-fit: cover;
+    
+}
+
+.produto-card h3,
+.preco,
+.adicionarAoCarrinho{
+    padding: 10px 10px;
+    font-weight: 700;
+}
+
+.produto-card p{
+    padding: 5px 10px;
+    font-weight: 200;
+}
+
+.adicionarAoCarrinho{
+    margin: 15px 20px 20px 20px;
+}
+
+.preco-pix{
+    font-size: 19px;
+    font-weight: bold;
+    color: #111;
+}
+
+.preco-antigo{
+    font-size: 14px;
+    color: #797979;
+    text-decoration: line-through;
+}
+
+.adicionarAoCarrinho{
+    margin-top: auto;
+
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+
+    background-color: #111;
+    color: white;
+    font-weight: 600;
+
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.adicionarAoCarrinho:hover{
+    background-color: #333;
+}
+
+.footer{
+    background-color: #000000;
+    color: #F5F5F5;
+    padding: 40px 80px;
+}
+
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+/* REDES SOCIAIS */
+
+.redesSociais{
+    text-align: center;
+}
+
+.redesSociais h4{
+    margin-bottom: 10px;
+}
+
+.redesSociais a{
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.redesSociais img{
+    width: 26px;
+    transition: 0.3s;
+}
+
+.redesSociais img:hover{
+    transform: scale(1.1);
+}
+
+.footer-dev{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.footer-dev img{
+    height: 60px; 
+}
+
+.footer-dev p{
+    font-size: 14px;
+    text-align: center;
+}
