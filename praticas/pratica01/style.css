@@ -10,10 +10,9 @@ body{
     background-color: #F5F5F5;
     color: #111;
 
-    max-width: 1600px;
+    max-width: 2000px;
     margin: 0 auto;
 }
-
 
 .top-bar{
     display: flex;
@@ -273,6 +272,7 @@ display: block;
 .adicionarAoCarrinho{
     padding: 10px 10px;
     font-weight: 700;
+
 }
 
 .produto-card p{
